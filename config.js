@@ -15,14 +15,12 @@ global.devs = '94742514900,94721732206';
 global.website = 'https://github.com/Chathura369/KING-VAJIRA-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/09ab24679fb3a297a8905.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ
-' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'Chathura Dananjaya' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
-  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ
-' : process.env.PACK_NAME.split(";")[1],
+  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
