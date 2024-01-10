@@ -6,21 +6,23 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb://uwrr2obvrb4kbwnrvimy:rbgieh8nfk7EylXCh2D@byg4ii8uzy5rro8bcdfu-mongodb.services.clever-cloud.com:2008/byg4ii8uzy5rro8bcdfu"
 global.port= process.env.PORT || 5000
-global.email = 'botwhatsapp204@gmail.com'
-global.github = 'https://github.com/vajirabot1/KING-VAJIRA-MD'
-global.location = 'pakistan'
+global.email = 'not '
+global.github = 'https://github.com/Chatthura369/KING-VAJIRA-MD'
+global.location = 'Srilanaka'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '923096566451'
-global.devs = '923096566451';
-global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' // Hello world
+global.sudo = process.env.SUDO || '94742514900,94721732206 '
+global.devs = '94742514900,94721732206';
+global.website = 'https://github.com/Chathura369/KING-VAJIRA-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/09ab24679fb3a297a8905.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Vajira Rathnayaka' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ
+' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'Chathura Dananjaya' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Vajira-Rathnayaka' : process.env.PACK_AUTHER.split(";")[0],
+  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
-  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'King-Vajira-Md' : process.env.PACK_NAME.split(";")[1],
+  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'ⒸⒽⒶⓉⒽⓊⓇⒶ
+' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
